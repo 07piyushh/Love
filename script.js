@@ -95,3 +95,12 @@ no.style.left=x+"px";
 no.style.top=y+"px";
 
 }
+musicBtn.onclick = () => {
+    if (music.paused) {
+        music.play();
+        musicBtn.innerHTML = "🔊 Music";
+    } else {
+        music.pause();
+        musicBtn.innerHTML = "🔇 Mute";
+    }
+};
