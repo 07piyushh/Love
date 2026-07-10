@@ -6,7 +6,7 @@ const nextBtn = document.getElementById("nextBtn");
 
 const music = document.getElementById("music");
 const slide = document.getElementById("slide");
-
+const musicBtn = document.getElementById("musicBtn");
 const yes = document.getElementById("yes");
 const no = document.getElementById("no");
 
