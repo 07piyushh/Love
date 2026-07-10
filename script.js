@@ -45,7 +45,11 @@ nextBtn.onclick = () => {
 
 // Yes Button
 yes.onclick = () => {
-
+confetti({
+  particleCount: 200,
+  spread: 100,
+  origin: { y: 0.6 }
+});
 document.body.innerHTML = `
 <div style="
 height:100vh;
